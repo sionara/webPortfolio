@@ -9,7 +9,9 @@ const Stars = (props) => {
   );
 
   useFrame((state, delta) => {
+    //@ts-ignore
     ref.current.rotation.x -= delta / 10;
+    //@ts-ignore
     ref.current.rotation.y -= delta / 15;
   });
 

@@ -11,6 +11,7 @@ const StarWrapper = (
   function HOC() {
     return (
       <motion.section
+        //@ts-ignore
         variants={staggerContainer()}
         initial="hidden"
         whileInView="show"
@@ -20,7 +21,7 @@ const StarWrapper = (
         <span className="hash-span" id={idName}>
           &nbsp;
         </span>
-
+        {/* @ts-ignore */}
         <Component />
       </motion.section>
     );

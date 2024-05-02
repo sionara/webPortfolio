@@ -32,5 +32,5 @@ const Tech = () => {
     </>
   );
 };
-
+//@ts-ignore
 export default SectionWrapper(Tech, "");

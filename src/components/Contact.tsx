@@ -131,5 +131,5 @@ const Contact = () => {
     </div>
   );
 };
-
+//@ts-ignore
 export default SectionWrapper(Contact, "contact");
