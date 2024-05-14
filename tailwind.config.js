@@ -1,4 +1,7 @@
 /** @type {import('tailwindcss').Config} */
+
+const defaultTheme = require("tailwindcss/defaultTheme");
+
 module.exports = {
   content: ["./index.html", "./src/**/*.{ts,tsx}"],
   mode: "jit",
@@ -15,12 +18,16 @@ module.exports = {
       boxShadow: {
         card: "0px 35px 120px -15px #211e35",
       },
-      screens: {
-        xs: "450px",
-      },
       backgroundImage: {
         "hero-pattern": "url('/src/assets/herobg.png')",
       },
+    },
+    screens: {
+      // followed tailwind documentation method of adding smaller breakpoints
+      xs: "450px",
+      ...defaultTheme.screens,
+
+      navTitle: "800px",
     },
   },
   plugins: [],
