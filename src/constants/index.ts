@@ -72,7 +72,7 @@ const technologies = [
     icon: typescript,
   },
   {
-    name: "React JS",
+    name: "React",
     icon: reactjs,
   },
   {
@@ -143,19 +143,19 @@ const projects = [
       "Web-based rock-paper-scissor game that allows users to chat real-time, providing a fun way to connect and engage in fierce competition!",
     tags: [
       {
-        name: "react",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "mySQL",
+        name: "Node.JS",
         color: "green-text-gradient",
       },
       {
-        name: "Material UI",
+        name: "socket.io",
         color: "pink-text-gradient",
       },
       {
-        name: "socket.io",
+        name: "MySQL",
         color: "yellow-text-gradient",
       },
     ],
@@ -197,8 +197,12 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "BootStrap",
+        name: "Entity Framework",
         color: "pink-text-gradient",
+      },
+      {
+        name: "BootStrap",
+        color: "yellow-text-gradient",
       },
     ],
     image: GFP,
